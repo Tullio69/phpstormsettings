@@ -1,0 +1,7 @@
+<templateSet group="Zen HTML">
+  <template name="lrow" value="&lt;span class=&quot;link-row&quot;&gt;&lt;a href=&quot;#&quot;&gt;&#10;    &lt;div class=&quot;list bg-white&quot;&gt;&lt;span&gt;&lt;label for=&quot;&quot;&gt;Test&lt;/label&gt;&lt;/span&gt;&lt;/div&gt;&#10;&lt;/a&gt; &lt;div class=&quot;bookmarkable&quot; onclick=&quot;addBookmark(this)&quot;&gt;&lt;i class=&quot;mif-link prepend-icon&quot;&gt;&lt;/i&gt;&lt;/div&gt;&#10; &lt;/span&gt;" description="link-row" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

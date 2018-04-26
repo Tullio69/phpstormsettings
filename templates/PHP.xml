@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="cic" value="class $NAME$ extends CI_Controller {&#10;$END$&#10;} " description="Code Ignite Controller" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,11 @@
+<application>
+  <component name="EmmetOptions">
+    <option name="addEditPointAtTheEndOfTemplate" value="true" />
+    <option name="filtersEnabledByDefault">
+      <set>
+        <option value="e" />
+      </set>
+    </option>
+    <option name="previewEnabled" value="true" />
+  </component>
+</application>
