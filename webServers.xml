@@ -69,7 +69,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="696e7027-85e6-4eb9-9c04-911c2d28fc9d" name="localhost-xmlpatopdf" url="http://localhost/xmlpatopdf/">
-        <fileTransfer port="0" mountedRoot="C:\wamp64\www\xmlpatopdf" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="D:\wamp64\www\xmlpatopdf" accessType="MOUNT" />
       </webServer>
       <webServer id="f2a0aff2-31ed-4c77-ac9c-8a9b09e026b8" name="local_xmlpa_class" url="http://localhost">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\xmlpa\digithera\lib" accessType="MOUNT" />
