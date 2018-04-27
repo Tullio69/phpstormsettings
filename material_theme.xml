@@ -12,5 +12,6 @@
     <option name="compactSidebar" value="true" />
     <option name="tabsHeight" value="50" />
     <option name="isCompactStatusBar" value="true" />
+    <option name="useMaterialFont" value="false" />
   </component>
 </application>
