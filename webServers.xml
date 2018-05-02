@@ -7,11 +7,11 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="3cd19f3b-b144-4cac-a1d1-707fca79ac65" name="Digithera/Devel/xmlpaLib" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="22" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera/lib" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera/lib" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
       <webServer id="057f0fea-0122-46a5-99c5-31926e6adb89" name="xmlpaLib" url="https://88.99.12.32">
