@@ -34,10 +34,6 @@
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="mariadb">
-      <artifact name="MariaDB Connector J" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
     <driver id="derby.remote">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
@@ -52,14 +48,12 @@
     <driver id="postgresql">
       <artifact name="PostgreSQL" use="true" version="42.2.2" />
       <option name="auto-sync" value="true" />
-      <option name="schema-control" value="MANUAL" />
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
     </driver>
     <driver id="redshift">
       <artifact name="Redshift" use="true" />
       <option name="auto-sync" value="true" />
-      <option name="schema-control" value="MANUAL" />
     </driver>
     <driver id="db2">
       <artifact name="DB2" use="true" />
@@ -75,11 +69,15 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" version="5.1.46" />
+      <artifact name="MySQL Connector/J" use="true">
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
+        </library>
+      </artifact>
       <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />
