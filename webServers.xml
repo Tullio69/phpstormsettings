@@ -78,7 +78,7 @@
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\digithera\lib" accessType="MOUNT" />
       </webServer>
       <webServer id="1b32d111-c631-44a4-9fb7-f2b22c693f3a" name="localhost-xmlpatopdfweb" url="http://localhost/xmlpatopdf/">
-        <fileTransfer port="0" mountedRoot="C:\wamp64\www\xmlpatopdf" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="C:\Users\Fabio\OneDrive\phpstorm\www.xmlpatopdf.eu" accessType="MOUNT" />
       </webServer>
       <webServer id="90b470a1-eb92-465a-a7d0-c850f60cde4b" name="Contabo-laritenutadiacconto" url="http://lastampaveloce.it">
         <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/laritenutadiacconto.it/web" accessType="SFTP">
@@ -110,6 +110,14 @@
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="3722" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="47caf331-7caa-4292-813b-c7d6fc8802b0" name="production - xmlpatopdf" url="https://88.99.12.32">
+        <fileTransfer host="88.99.12.32" port="22" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/www.xmlpatopdf.eu" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
