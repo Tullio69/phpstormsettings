@@ -22,9 +22,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="b145d91b-a363-4734-b114-885d0ce34204" name="adefinizione" url="http://localhost">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
       <webServer id="773f071d-1d96-4425-88db-c3b28a219071" name="Contabo-PrestazioneOccasionale" url="http://lastampaveloce.it">
         <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/prestazione-occasionale.it/web" accessType="SFTP">
           <advancedOptions>
