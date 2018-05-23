@@ -1,0 +1,9 @@
+<code_scheme name="Default (1)">
+  <SqlCodeStyleSettings>
+    <option name="NEW_LINE_BEFORE_JOIN_CONDITION" value="true" />
+    <option name="DISABLE_FORMATTING" value="true" />
+  </SqlCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+</code_scheme>
