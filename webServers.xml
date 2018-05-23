@@ -7,11 +7,11 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="3cd19f3b-b144-4cac-a1d1-707fca79ac65" name="Digithera/Devel/xmlpaLib" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="22" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera/lib" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera/lib" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
       <webServer id="057f0fea-0122-46a5-99c5-31926e6adb89" name="xmlpaLib" url="https://88.99.12.32">
@@ -21,9 +21,6 @@
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
-      </webServer>
-      <webServer id="b145d91b-a363-4734-b114-885d0ce34204" name="adefinizione" url="http://localhost">
-        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="773f071d-1d96-4425-88db-c3b28a219071" name="Contabo-PrestazioneOccasionale" url="http://lastampaveloce.it">
         <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/prestazione-occasionale.it/web" accessType="SFTP">
@@ -69,7 +66,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="696e7027-85e6-4eb9-9c04-911c2d28fc9d" name="localhost-xmlpatopdf" url="http://localhost/xmlpatopdf/">
-        <fileTransfer port="0" mountedRoot="C:\wamp64\www\xmlpatopdf" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="D:\wamp64\www\xmlpatopdf" accessType="MOUNT" />
       </webServer>
       <webServer id="f2a0aff2-31ed-4c77-ac9c-8a9b09e026b8" name="local_xmlpa_class" url="http://localhost">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\xmlpa\digithera\lib" accessType="MOUNT" />
@@ -78,7 +75,7 @@
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\digithera\lib" accessType="MOUNT" />
       </webServer>
       <webServer id="1b32d111-c631-44a4-9fb7-f2b22c693f3a" name="localhost-xmlpatopdfweb" url="http://localhost/xmlpatopdf/">
-        <fileTransfer port="0" mountedRoot="C:\wamp64\www\xmlpatopdf" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="C:\Users\Fabio\OneDrive\phpstorm\www.xmlpatopdf.eu" accessType="MOUNT" />
       </webServer>
       <webServer id="90b470a1-eb92-465a-a7d0-c850f60cde4b" name="Contabo-laritenutadiacconto" url="http://lastampaveloce.it">
         <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/laritenutadiacconto.it/web" accessType="SFTP">
@@ -97,7 +94,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="e3d83dcb-8042-4648-ae8d-179acb3bcab0" name="ecilog@" url="http://ecilog.dynu.net">
-        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" accessType="SFTP" keyPair="true">
+        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -105,7 +102,23 @@
         </fileTransfer>
       </webServer>
       <webServer id="d2288070-137c-4aeb-8cf2-61e33167f2ee" name="CONTROLLER-DEV" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/controller" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/controller/2mail" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="3722" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="47caf331-7caa-4292-813b-c7d6fc8802b0" name="production - xmlpatopdf" url="https://88.99.12.32">
+        <fileTransfer host="88.99.12.32" port="22" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/www.xmlpatopdf.eu" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="35699ea5-0a5c-4674-bfb5-74a0cda24555" name="apiproject" url="http://dev.digithera.it">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
