@@ -18,6 +18,9 @@
   <component name="JSEditorOptions">
     <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
   </component>
+  <component name="LiveEditOptions" chromeUpdateApp="true">
+    <option name="elementHighlighting" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\btodo\b.*" />
     <pattern case-sensitive="true" pattern="\bfixme\b.*" />
