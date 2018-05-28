@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'apiproject'" />
-    <option name="defaultScopeName" value="Project 'apiproject'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="searchOverloadedMethods" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'apiproject'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
