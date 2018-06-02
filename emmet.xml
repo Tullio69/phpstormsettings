@@ -1,5 +1,19 @@
 <application>
+  <component name="CssEmmetOptions">
+    <option name="fuzzySearchEnabled" value="false" />
+  </component>
   <component name="EmmetOptions">
+    <option name="filtersEnabledByDefault">
+      <set>
+        <option value="bem" />
+        <option value="c" />
+        <option value="s" />
+        <option value="t" />
+      </set>
+    </option>
     <option name="previewEnabled" value="true" />
+  </component>
+  <component name="JsxEmmetOptions">
+    <option name="emmetEnabled" value="false" />
   </component>
 </application>
