@@ -94,7 +94,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d2288070-137c-4aeb-8cf2-61e33167f2ee" name="CONTROLLER-DEV" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/controller/" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/controller" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
