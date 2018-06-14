@@ -17,6 +17,10 @@
     <option name="COLLAPSE_OBJECT_LITERALS" value="true" />
     <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
   </component>
+  <component name="PHPFoldingCustomFoldingSettings">
+    <option name="THIS_PREFIX_FIELDS" value="false" />
+    <option name="THIS_PREFIX_METHODS" value="false" />
+  </component>
   <component name="PhpCodeFoldingSettings">
     <option name="COLLAPSE_PHP_TAGS" value="true" />
     <option name="COLLAPSE_HERE_DOCS" value="true" />
