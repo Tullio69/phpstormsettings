@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="Project 'pizzacalc'" />
+    <option name="defaultScopeName" value="Project 'pizzacalc'" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="searchOverloadedMethods" value="true" />
@@ -10,6 +10,6 @@
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Project 'pizzacalc'" />
   </component>
 </application>
