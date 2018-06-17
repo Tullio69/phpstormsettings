@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="shift s" />
+  </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>

@@ -33,8 +33,6 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_ATTRIBUTE_WRAP" value="0" />
     <option name="HTML_TEXT_WRAP" value="0" />
-    <option name="HTML_KEEP_LINE_BREAKS" value="false" />
-    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
     <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
   </HTMLCodeStyleSettings>
   <JSON>
@@ -91,7 +89,9 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="200" />
     <option name="WRAP_ON_TYPING" value="0" />
+    <option name="SOFT_MARGINS" value="80,120,160,200" />
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
