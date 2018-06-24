@@ -1,6 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.2.3.1" />
+    <option name="version" value="2.4.1.2-2018.1" />
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
     <option name="isContrastMode" value="true" />
@@ -12,5 +12,7 @@
     <option name="compactSidebar" value="true" />
     <option name="tabsHeight" value="50" />
     <option name="useMaterialFont" value="false" />
+    <option name="userId" value="562cacb9:164312f4540:-7fff" />
+    <option name="allowDataCollection" value="true" />
   </component>
 </application>
