@@ -34,6 +34,7 @@
       <schema-control>MANUAL</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://digidata.digithera.it:5432/digidata</jdbc-url>
+      <default-dialect>PostgreSQL</default-dialect>
       <driver-properties>
         <property name="sslmode" value="require" />
       </driver-properties>
