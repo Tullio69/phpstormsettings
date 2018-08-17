@@ -28,5 +28,16 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="digidata@digidata.digithera.it" uuid="65b1f74f-110a-44a8-99e2-d347dba204fe">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://digidata.digithera.it:5432/digidata</jdbc-url>
+      <default-dialect>PostgreSQL</default-dialect>
+      <driver-properties>
+        <property name="sslmode" value="require" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>
