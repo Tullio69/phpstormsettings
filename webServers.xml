@@ -15,7 +15,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="057f0fea-0122-46a5-99c5-31926e6adb89" name="xmlpaLib" url="https://88.99.12.32">
-        <fileTransfer host="88.99.12.32" port="22" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/opt/digithera/lib" accessType="SFTP" keyPair="true">
+        <fileTransfer host="88.99.12.32" port="22" rootFolder="/opt/digithera/lib" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -47,7 +47,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="1c525f6c-1c3c-41c2-a0ff-35d2e90e696e" name="Ameterra" url="http://lastampaveloce.it">
-        <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/ameterra.it/web" accessType="SFTP">
+        <fileTransfer host="dovebuttoilrifiuto.it" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -83,14 +83,6 @@
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="32ac9adf-1a5d-4387-b4a2-c16ccea994f6" name="test.fabiogulotta.it" url="http://ftp.test.fabiogulotta.it">
-        <fileTransfer host="ftp.test.fabiogulotta.it" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="e3d83dcb-8042-4648-ae8d-179acb3bcab0" name="ecilog@" url="http://ecilog.dynu.net">
