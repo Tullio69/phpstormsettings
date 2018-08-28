@@ -110,11 +110,11 @@
         </fileTransfer>
       </webServer>
       <webServer id="47caf331-7caa-4292-813b-c7d6fc8802b0" name="production - xmlpatopdf" url="https://88.99.12.32">
-        <fileTransfer host="88.99.12.32" port="22" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/www.xmlpatopdf.eu" accessType="SFTP" keyPair="true">
+        <fileTransfer host="88.99.12.32" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/www.xmlpatopdf.eu" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
       <webServer id="35699ea5-0a5c-4674-bfb5-74a0cda24555" name="apiproject" url="http://dev.digithera.it">
