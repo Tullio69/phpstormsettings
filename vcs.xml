@@ -14,6 +14,10 @@
           <option name="url" value="ssh://git@git.digithera.it:3722/srv/git/digithera/" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:fgulotta/dovelobuttoilrifiuto.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Fabio\PhpstormProjects" />
