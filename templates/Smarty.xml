@@ -23,7 +23,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="nip" value="{* notinprod *}$SELECTION${* notinprod *}" toReformat="false" toShortenFQNames="true">
+  <template name="nip" value="{* notinprod *}$SELECTION${* notinprod *}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
