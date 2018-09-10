@@ -9,4 +9,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="fekv" value="foreach ($arr$ as $key =&gt; $value) {&#10;    // $arr[3] will be updated with each value from $arr...&#10;    echo &quot;{$key} =&gt; {$value} &quot;;&#10;    print_r($arr$);&#10;}" description="foreach loop" toReformat="false" toShortenFQNames="true">
+    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
