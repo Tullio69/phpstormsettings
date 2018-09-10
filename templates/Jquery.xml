@@ -1,0 +1,21 @@
+<templateSet group="Jquery">
+  <template name="ajax" value=" $.ajax({url: &quot;demo_ajax_load.txt&quot;, async: false, success: function(result){&#10;            $(&quot;div&quot;).html(result);&#10;        }});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSX_HTML" value="true" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
