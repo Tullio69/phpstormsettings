@@ -78,7 +78,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="e3d83dcb-8042-4648-ae8d-179acb3bcab0" name="ecilog@" url="http://ecilog.dynu.net">
-        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
+        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
