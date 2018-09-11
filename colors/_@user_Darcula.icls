@@ -1,16 +1,11 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-04-08T11:12:04</property>
+    <property name="created">2018-09-09T10:31:53</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-09-11T12:12:08</property>
+    <property name="ideVersion">2018.3.0.0</property>
+    <property name="modified">2018-09-11T10:03:19</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
-  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="FILESTATUS_ADDED" value="c3e88d" />
     <option name="FILESTATUS_COPIED" value="c3e88d" />

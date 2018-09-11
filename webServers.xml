@@ -46,14 +46,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="1c525f6c-1c3c-41c2-a0ff-35d2e90e696e" name="Ameterra" url="http://lastampaveloce.it">
-        <fileTransfer host="dovebuttoilrifiuto.it" port="22" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="4508ba6f-83fb-4d51-a68e-7c7f9d768597" name="wamp" url="http://localhost/progetto_mageco">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
@@ -86,7 +78,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="e3d83dcb-8042-4648-ae8d-179acb3bcab0" name="ecilog@" url="http://ecilog.dynu.net">
-        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
+        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -123,6 +115,14 @@
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="3722" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bbb78ff4-0417-418a-aba1-e93c91c675f4" name="dovebuttoilrifiuto.it" url="http://dovebuttoilrifiuto.it">
+        <fileTransfer host="dovebuttoilrifiuto.it" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>
