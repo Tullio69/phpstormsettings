@@ -117,16 +117,16 @@
           <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
-      <webServer id="bbb78ff4-0417-418a-aba1-e93c91c675f4" name="dovebuttoilrifiuto.it" url="http://mmacro.isieng-web.it">
-        <fileTransfer host="mmacro.isieng-web.it" port="21" rootFolder="/domains/mmacro.isieng-web.it/public_html/wp-content">
+      <webServer id="bbb78ff4-0417-418a-aba1-e93c91c675f4" name="dovebuttoilrifiuto.it" url="http://dovebuttoilrifiuto.it">
+        <fileTransfer host="dovebuttoilrifiuto.it" port="21" rootFolder="/domains/mmacro.isieng-web.it/public_html/wp-content">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="3251365b-693e-4fb0-ac42-d7ac017651fe" name="micromacro" url="http://isieng-web.it">
-        <fileTransfer host="isieng-web.it" port="21" rootFolder="/domains/mmacro.isieng-web.it/public_html">
+      <webServer id="3251365b-693e-4fb0-ac42-d7ac017651fe" name="micromacro" url="http://mmacro.isieng-web.it">
+        <fileTransfer host="mmacro.isieng-web.it" port="21" rootFolder="/domains/mmacro.isieng-web.it/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
