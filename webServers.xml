@@ -102,11 +102,11 @@
         </fileTransfer>
       </webServer>
       <webServer id="35699ea5-0a5c-4674-bfb5-74a0cda24555" name="apiproject" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="3722" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="05b89a2c-be20-4e23-b3ae-73645e641828" name="Controller-dev" url="http://dev.digithera.it">
@@ -120,7 +120,7 @@
       <webServer id="bbb78ff4-0417-418a-aba1-e93c91c675f4" name="dovebuttoilrifiuto.it" url="http://dovebuttoilrifiuto.it">
         <fileTransfer host="dovebuttoilrifiuto.it" port="21" rootFolder="/public_html">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
@@ -128,7 +128,7 @@
       <webServer id="3251365b-693e-4fb0-ac42-d7ac017651fe" name="micromacro" url="http://mmacro.isieng-web.it">
         <fileTransfer host="mmacro.isieng-web.it" port="21" rootFolder="/domains/mmacro.isieng-web.it/public_html">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
