@@ -1,8 +1,0 @@
-<keymap version="1" name="Default copy" parent="$default">
-  <action id="GotoNextBookmark">
-    <keyboard-shortcut first-keystroke="ctrl plus" />
-  </action>
-  <action id="GotoPreviousBookmark">
-    <keyboard-shortcut first-keystroke="ctrl #10000f9" />
-  </action>
-</keymap>
