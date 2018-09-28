@@ -1,0 +1,54 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="digithera_mgn@localhost" uuid="21b34288-982c-44b5-99da-a3f0ac55ed70">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/digithera_mgn</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="vtiger@localhost" uuid="4769ff31-014f-4f0e-842a-2e320b9875ce">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/vtiger</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="digidata@digidata.digithera.it" uuid="65b1f74f-110a-44a8-99e2-d347dba204fe">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://digidata.digithera.it:5432/digidata</jdbc-url>
+      <default-dialect>PostgreSQL</default-dialect>
+      <driver-properties>
+        <property name="sslmode" value="require" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="digidata@digidata.digithera.it - test" uuid="2d44e655-f2e0-4ddd-a453-0547e30a5937">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://digidata.digithera.it:5432/digidata</jdbc-url>
+      <default-dialect>PostgreSQL</default-dialect>
+      <driver-properties>
+        <property name="sslmode" value="require" />
+      </driver-properties>
+    </data-source>
+  </component>
+</application>

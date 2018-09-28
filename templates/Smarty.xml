@@ -1,0 +1,31 @@
+<templateSet group="Smarty">
+  <template name="if" value="{if}&#10;$END$&#10;{/if}" description="Smarty if" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="f" value="{foreach $item as $$$i$} &#10;  {$$$i$.id} &#10;{/foreach}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ffk" value="{foreach name=outer item=$item$ from=$array$}&#10;  {foreach key=key item=item from=$$$item$}&#10;    {$key}: {$item}&lt;br&gt;&#10;  {/foreach}&#10;{/foreach}&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="lit" value="{literal}$END${/literal}" description="literal escape" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nip" value="{* notinprod *}$SELECTION${* notinprod *}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
