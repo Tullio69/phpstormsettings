@@ -1,9 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="testdmin" type="PLAIN_TEXT" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern="fattura_passiva_forse" type="PLAIN_TEXT" />
       <mapping pattern="php_errorlog" type="PLAIN_TEXT" />
+      <mapping pattern="testdmin" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="test_scratch" type="PLAIN_TEXT" />
