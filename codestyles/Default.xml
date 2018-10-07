@@ -1,12 +1,13 @@
 <code_scheme name="Default" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
-  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+  <option name="RIGHT_MARGIN" value="360" />
   <option name="HTML_ATTRIBUTE_WRAP" value="0" />
   <option name="HTML_TEXT_WRAP" value="0" />
   <option name="HTML_KEEP_LINE_BREAKS" value="false" />
   <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
   <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <option name="SOFT_MARGINS" value="260" />
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
