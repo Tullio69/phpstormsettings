@@ -118,7 +118,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="bbb78ff4-0417-418a-aba1-e93c91c675f4" name="dovebuttoilrifiuto.it" url="http://dovebuttoilrifiuto.it">
-        <fileTransfer host="dovebuttoilrifiuto.it" port="21" rootFolder="/public_html">
+        <fileTransfer host="dovebuttoilrifiuto.it" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>

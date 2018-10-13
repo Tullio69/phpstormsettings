@@ -1,10 +1,19 @@
-<templateSet group="html/xml">
-  <template name="navdown" value=" &lt;div class=&quot;navbar-item has-dropdown is-active&quot;&gt;&#10;        &lt;a class=&quot;navbar-link&quot;&gt;&#10;            $linkname$&#10;        &lt;/a&gt;&#10;&#10;        &lt;div class=&quot;navbar-dropdown&quot;&gt;&#10;            &lt;a class=&quot;navbar-item&quot;&gt;&#10;                $itemname$&#10;            &lt;/a&gt;&#10;            &#10;            &lt;hr class=&quot;navbar-divider&quot;&gt;&#10;            &lt;div class=&quot;navbar-item&quot;&gt;&#10;                $itemname2$&#10;                            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="linkname" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="itemname" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="itemname2" expression="" defaultValue="" alwaysStopAt="true" />
+<templateSet group="HTML/XML">
+  <template name="--" value="&lt;!-- $SELECTION$ --&gt;" description="html Comment in Smarty template" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>
