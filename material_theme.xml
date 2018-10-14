@@ -1,6 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.10.2.1" />
+    <option name="version" value="2.10.3.1" />
     <option name="isContrastMode" value="true" />
     <option name="accentColor" value="c0500b" />
     <option name="compactSidebar" value="true" />
