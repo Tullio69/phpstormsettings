@@ -1,11 +1,13 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="version" value="2.10.6" />
+    <option name="selectedTheme" value="ARC_DARK" />
     <option name="isContrastMode" value="true" />
-    <option name="isMaterialDesign" value="false" />
-    <option name="accentColor" value="c0500b" />
+    <option name="accentColor" value="009688" />
     <option name="compactSidebar" value="true" />
     <option name="tabsHeight" value="36" />
+    <option name="isMaterialTheme" value="false" />
+    <option name="darkTitleBar" value="true" />
     <option name="compactDropdowns" value="true" />
     <option name="userId" value="6cbb72e8:166627e7178:-8000" />
     <option name="overrideAccentColor" value="true" />
