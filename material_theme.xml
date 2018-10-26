@@ -2,6 +2,7 @@
   <component name="MaterialThemeConfig">
     <option name="version" value="2.10.6" />
     <option name="isContrastMode" value="true" />
+    <option name="isMaterialDesign" value="false" />
     <option name="accentColor" value="c0500b" />
     <option name="compactSidebar" value="true" />
     <option name="tabsHeight" value="38" />
