@@ -1,15 +1,28 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="version" value="2.10.6" />
-    <option name="selectedTheme" value="ARC_DARK" />
+    <option name="selectedTheme" value="PALENIGHT" />
+    <option name="highlightColor" value="80cbc4" />
+    <option name="highlightColorEnabled" value="true" />
     <option name="isContrastMode" value="true" />
-    <option name="accentColor" value="009688" />
+    <option name="isCustomTreeIndentEnabled" value="true" />
+    <option name="rightTreeIndent" value="6" />
+    <option name="leftTreeIndent" value="4" />
+    <option name="accentColor" value="ab47bc" />
     <option name="compactSidebar" value="true" />
-    <option name="tabsHeight" value="36" />
+    <option name="tabsHeight" value="26" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isCompactTables" value="true" />
+    <option name="customSidebarHeight" value="22" />
     <option name="darkTitleBar" value="true" />
+    <option name="indicatorStyle" value="Dot" />
     <option name="compactDropdowns" value="true" />
+    <option name="treeFontSize" value="11" />
+    <option name="settingsSelectedTab" value="3" />
     <option name="userId" value="6cbb72e8:166627e7178:-8000" />
+    <option name="treeFontSizeEnabled" value="true" />
     <option name="overrideAccentColor" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="isCompactMenus" value="true" />
   </component>
 </application>
