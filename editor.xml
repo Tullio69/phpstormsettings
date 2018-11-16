@@ -16,6 +16,9 @@
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
     <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
   </component>
+  <component name="LiveEditOptions">
+    <option name="elementHighlighting" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
@@ -41,9 +44,7 @@
       <option name="FONT_TYPE" value="2" />
       <option name="EFFECT_COLOR" value="32424a" />
     </pattern>
-    <filter name="Debug">
-      <pattern index="-1" />
-    </filter>
+    <filter name="Debug" />
     <filter name="Prima di pushare">
       <pattern index="4" />
     </filter>
