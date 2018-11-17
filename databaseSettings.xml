@@ -1,8 +1,6 @@
 <application>
-  <component name="DatabaseSettings" version="3">
-    <option name="page-size" value="0" />
-    <option name="load-slow-documentation" value="false" />
-    <option name="always-show-console-toolbar" value="true" />
+  <component name="DatabaseSettings" version="4">
+    <option name="limit-page-size" value="false" />
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />

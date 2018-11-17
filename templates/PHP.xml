@@ -1,6 +1,16 @@
 <templateSet group="PHP">
-  <template name="cic" value="class $NAME$ extends CI_Controller {&#10;$END$&#10;} " description="Code Ignite Controller" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="t" value="$this-&gt;" description="$this-&gt;class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="nip" value="/* notinprod */$SELECTION$/*notinprod*/" description="not in prod Comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fekv" value="foreach ($arr$ as $key =&gt; $value) {&#10;    // $arr[3] will be updated with each value from $arr...&#10;    echo &quot;{$key} =&gt; {$value} &quot;;&#10;    print_r($arr$);&#10;}" description="foreach loop" toReformat="false" toShortenFQNames="true">
+    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
