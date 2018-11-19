@@ -1,7 +1,0 @@
-<templateSet group="HTML/XML">
-  <template name="--" value="&lt;!--$END$--&gt;" description="Html Comment" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
-    </context>
-  </template>
-</templateSet>
