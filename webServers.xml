@@ -101,14 +101,6 @@
           <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
-      <webServer id="35699ea5-0a5c-4674-bfb5-74a0cda24555" name="apiproject" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
       <webServer id="05b89a2c-be20-4e23-b3ae-73645e641828" name="Controller-dev" url="http://dev.digithera.it">
         <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/controller" accessType="SFTP" keyPair="true">
           <advancedOptions>
