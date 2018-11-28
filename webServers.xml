@@ -22,14 +22,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="773f071d-1d96-4425-88db-c3b28a219071" name="Contabo-PrestazioneOccasionale" url="http://lastampaveloce.it">
-        <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/prestazione-occasionale.it/web" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="2313dc6c-cc8d-47e4-873f-2441a7923331" name="One.com|Ghostwriter" url="http://www.ghostwritersicilia.com">
         <fileTransfer host="ssh.ghostwritersicilia.com" port="22" rootFolder="/www" accessType="SFTP">
           <advancedOptions>
@@ -68,14 +60,6 @@
       </webServer>
       <webServer id="1b32d111-c631-44a4-9fb7-f2b22c693f3a" name="localhost-xmlpatopdfweb" url="http://localhost/xmlpatopdf/">
         <fileTransfer port="0" mountedRoot="C:\Users\Fabio\OneDrive\phpstorm\www.xmlpatopdf.eu" accessType="MOUNT" />
-      </webServer>
-      <webServer id="90b470a1-eb92-465a-a7d0-c850f60cde4b" name="Contabo-laritenutadiacconto" url="http://lastampaveloce.it">
-        <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/laritenutadiacconto.it/web" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
       </webServer>
       <webServer id="e3d83dcb-8042-4648-ae8d-179acb3bcab0" name="ecilog@" url="http://ecilog.dynu.net">
         <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
