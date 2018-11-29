@@ -41,12 +41,12 @@
       <webServer id="4508ba6f-83fb-4d51-a68e-7c7f9d768597" name="wamp" url="http://localhost/progetto_mageco">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
-      <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-Pizzabuona-sftp" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="22" rootFolder="/var/www/pizza3calc.fabiogulotta.it/web" accessType="SFTP">
+      <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://173.212.239.121">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/isieng-web/domains/coopng.isieng-web.it/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
       <webServer id="696e7027-85e6-4eb9-9c04-911c2d28fc9d" name="localhost-xmlpatopdf" url="http://localhost/xmlpatopdf/">
