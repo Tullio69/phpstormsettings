@@ -30,14 +30,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="d2423687-e272-4124-9b15-55b73de4bbd6" name="Contabo-lastampaveloce" url="http://lastampaveloce.it">
-        <fileTransfer host="79.143.183.2" port="22" rootFolder="/var/www/lastampaveloce.it/web" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="4508ba6f-83fb-4d51-a68e-7c7f9d768597" name="wamp" url="http://localhost/progetto_mageco">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
@@ -70,7 +62,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d2288070-137c-4aeb-8cf2-61e33167f2ee" name="CONTROLLER-DEV" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa" rootFolder="/home/devel" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa.ppk" rootFolder="/home/devel" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

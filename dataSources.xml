@@ -48,19 +48,5 @@
         <property name="sslmode" value="require" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="dovebuttoilrifiuto" uuid="c81d1055-f17f-480d-b74f-e298771296a9">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/dovebuttoilrifiuto</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
   </component>
 </application>
