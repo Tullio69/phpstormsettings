@@ -12,4 +12,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt equals" />
     <keyboard-shortcut first-keystroke="ctrl alt plus" />
   </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="alt page_down" />
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="alt page_up" />
+  </action>
 </keymap>
