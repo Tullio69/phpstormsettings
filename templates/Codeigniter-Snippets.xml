@@ -1,0 +1,6 @@
+<templateSet group="Codeigniter-Snippets">
+  <template name="controller" value="defined('BASEPATH') OR exit('No direct script access allowed');&#10;&#10;class $Controllername$ extends CI_Controller {&#10;&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;     } &#10;&#10;    public function index()&#10;&#9;{&#10;&#9;&#9;&#10;&#9;}&#10;&#10;}&#10;&#10;/* End of file Controllername.php */" description="CI - Base Controller" toReformat="false" toShortenFQNames="true">
+    <variable name="Controllername" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
