@@ -33,4 +33,11 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="bsctl" value="&lt;div class=&quot;col&quot;&gt;&lt;div class=&quot;form mb-0&quot;&gt;&lt;label for=&quot;nome&quot; class=&quot;&quot;&gt;$NOME$&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;$NOME$&quot; name=&quot;$NOME$&quot; value=&quot;{$$$VARIABILE$.$NOME$}&quot;&gt;&lt;/div&gt;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="NOME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARIABILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
