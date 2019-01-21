@@ -33,7 +33,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="bsctl" value="&lt;div class=&quot;col&quot;&gt;&lt;div class=&quot;form mb-0&quot;&gt;&lt;label for=&quot;nome&quot; class=&quot;&quot;&gt;$caNome$&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;$Nome$&quot; name=&quot;$Nome$&quot; value=&quot;{$Anagrafica[0].$Nome$}&quot; class=&quot;form&quot;&gt;&lt;/div&gt;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="bsctl" value="&lt;div class=&quot;col&quot;&gt;&lt;div class=&quot;form mb-0&quot;&gt;&lt;label for=&quot;nome&quot; class=&quot;&quot;&gt;$caNome$&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;$Nome$&quot; name=&quot;$Nome$&quot; value=&quot;{$Anagrafica[0].$Nome$}&quot; class=&quot;form-control&quot;&gt;&lt;/div&gt;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="Nome" expression="" defaultValue="Nome" alwaysStopAt="true" />
     <variable name="caNome" expression="capitalize(String)" defaultValue="capitalize(Nome)" alwaysStopAt="false" />
     <context>
