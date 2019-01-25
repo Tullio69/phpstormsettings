@@ -1,5 +1,4 @@
 <code_scheme name="Default" version="173">
-  <option name="AUTODETECT_INDENTS" value="false" />
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="360" />
   <option name="HTML_ATTRIBUTE_WRAP" value="0" />
@@ -34,11 +33,9 @@
     </formatting-settings>
   </DBN-SQL>
   <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_WHITESPACES" value="true" />
     <option name="HTML_ATTRIBUTE_WRAP" value="0" />
     <option name="HTML_TEXT_WRAP" value="0" />
-    <option name="HTML_KEEP_LINE_BREAKS" value="false" />
-    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
-    <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
   </HTMLCodeStyleSettings>
   <JSON>
     <option name="PROPERTY_ALIGNMENT" value="2" />
@@ -68,9 +65,9 @@
   <codeStyleSettings language="HTML">
     <option name="WRAP_ON_TYPING" value="0" />
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
       <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
       <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>
   </codeStyleSettings>
