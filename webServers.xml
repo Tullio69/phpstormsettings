@@ -102,7 +102,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="fa232f6f-ac81-4cb7-8b9a-69d88716c702" name="coopng" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/isieng-web/domains/coopng.isieng-web.it/public_html" accessType="SFTP">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/isieng-web/domains/coopng.fabiogulotta.it/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
