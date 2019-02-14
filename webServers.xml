@@ -117,6 +117,14 @@
           <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
+      <webServer id="59df9479-f587-4da2-a0ec-309fa8853007" name="pizza2calc.it" url="http://173.212.239.121">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizza2calc/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="3722" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
