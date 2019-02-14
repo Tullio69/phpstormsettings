@@ -34,7 +34,7 @@
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
       <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/isieng-web/domains/coopng.isieng-web.it" accessType="SFTP">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizzabuona/public_html/ci" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
