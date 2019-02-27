@@ -2,7 +2,6 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="JavaScript/Other/Replace Double-Quoted String with Single-Quoted String" />
     <ignoreAction name="PHP/Convert string literal to HEREDOC/NOWDOC" />
-    <ignoreAction name="PHP/Surround with '!empty'" />
     <ignoreAction name="Language Injection/Inject language or reference" />
     <ignoreAction name="PHP/Inject language using PHPDoc" />
   </component>

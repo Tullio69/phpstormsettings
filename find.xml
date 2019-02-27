@@ -16,7 +16,7 @@
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.tpl</mask>
-    <mask>*.php</mask>
     <mask>*.css</mask>
+    <mask>*.php</mask>
   </component>
 </application>
