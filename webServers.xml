@@ -6,6 +6,14 @@
       </SftpAdvancedOptions>
     </sftpAdvancedGlobalOptions>
     <option name="servers">
+      <webServer id="cd6e8f6a-229d-40ef-8eb1-cf164759825d" name="pizzabuona.it" url="http://pizzabuona.it">
+        <fileTransfer host="pizzabuona.it" port="3721">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3721" />
+        </fileTransfer>
+      </webServer>
       <webServer id="3cd19f3b-b144-4cac-a1d1-707fca79ac65" name="Digithera/Devel/xmlpaLib" url="http://dev.digithera.it">
         <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera/lib" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -34,7 +42,7 @@
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
       <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/isieng-web/domains/coopng.isieng-web.it" accessType="SFTP">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizzabuona/public_html/ci" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -103,6 +111,14 @@
       </webServer>
       <webServer id="fa232f6f-ac81-4cb7-8b9a-69d88716c702" name="coopng" url="http://173.212.239.121">
         <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/isieng-web/domains/coopng.fabiogulotta.it/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="3722" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="59df9479-f587-4da2-a0ec-309fa8853007" name="pizza2calc.it" url="http://173.212.239.121">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizza2calc/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
