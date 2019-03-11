@@ -125,6 +125,9 @@
           <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
+      <webServer id="0027447c-10e0-48cc-a3b8-66f3e26b8b36" name="localhost" url="http://localhost/4200">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
