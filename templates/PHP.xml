@@ -15,7 +15,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="crud" value="&#9;public function create(){}&#10;&#9;public function read(){}&#10;&#9;public function update(){}&#10;&#9;public function delete(){}" toReformat="false" toShortenFQNames="true">
+  <template name="crud" value="&#9;public function create(){}&#10;&#9;public function read(){}&#10;&#9;public function update(){}&#10;&#9;public function delete(){}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
