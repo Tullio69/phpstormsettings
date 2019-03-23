@@ -1,7 +1,0 @@
-<templateSet group="user">
-  <template name="&lt;abbreviation&gt;" value="public function create(){&#10;        $dati=$this-&gt;input-&gt;post();&#10;&#10;    }&#10;&#9;public function read(){&#10;           }&#10;&#9;public function update(){&#10;           }&#10;&#9;public function delete(){}" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="PHP Class Member" value="true" />
-    </context>
-  </template>
-</templateSet>
