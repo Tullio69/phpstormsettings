@@ -4,7 +4,6 @@
     <option name="PRESENTATION_MODE_FONT_SIZE" value="22" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
     <option name="smoothScrolling" value="true" />
-    <option name="SORT_BOOKMARKS" value="true" />
     <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
   </component>
 </application>
