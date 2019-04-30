@@ -128,6 +128,9 @@
       <webServer id="0027447c-10e0-48cc-a3b8-66f3e26b8b36" name="localhost" url="http://localhost/4200">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="f65b427f-da13-4c30-906b-ad7f8c8d4c79" name="gulp" url="http://localhost:3000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
