@@ -15,8 +15,11 @@
   <component name="JSCodeFoldingSettings">
     <option name="collapseArrayLiterals" value="true" />
     <option name="collapseObjectLiterals" value="true" />
+    <option name="collapseOneLineFunctions" value="true" />
+    <option name="collapseXmlLiterals" value="true" />
     <option name="COLLAPSE_OBJECT_LITERALS" value="true" />
     <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
+    <option name="COLLAPSE_XML_LITERALS" value="true" />
   </component>
   <component name="PhpCodeFoldingSettings">
     <option name="COLLAPSE_PHP_TAGS" value="true" />
