@@ -131,6 +131,9 @@
       <webServer id="f65b427f-da13-4c30-906b-ad7f8c8d4c79" name="gulp" url="http://localhost:3000">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="ff1420cb-ad47-445c-83aa-3d04ddd10371" name="localhost" url="http://localhost/lastampaveloce">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
