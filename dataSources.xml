@@ -1,9 +1,9 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="aclogistic@localhost" uuid="6d8614c9-f176-4c4a-b18c-6b7799602ecc">
-      <driver-ref>mysql</driver-ref>
+    <data-source source="LOCAL" name="MySQL - aclogistic@localhost" uuid="6d8614c9-f176-4c4a-b18c-6b7799602ecc">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/aclogistic</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
