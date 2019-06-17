@@ -44,7 +44,7 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
-    <pattern icon="important" useCustomColors="true" pattern="\bnotinprod\b.*">
+    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\bnotinprod\b.*">
       <option name="FOREGROUND" value="f9f9f9" />
       <option name="BACKGROUND" value="de0016" />
       <option name="FONT_TYPE" value="2" />
@@ -56,7 +56,7 @@
     </pattern>
     <filter name="Debug" />
     <filter name="Prima di pushare">
-      <pattern index="4" />
+      <pattern index="-1" />
     </filter>
   </component>
   <component name="XmlEditorOptions">
