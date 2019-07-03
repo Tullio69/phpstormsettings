@@ -15,6 +15,7 @@
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="it_error_log" type="PLAIN_TEXT" />
       <mapping pattern="Versioni Vuew Flow_View" type="SQL" />
+      <mapping pattern="Versioni View Flow_View" type="SQL" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
