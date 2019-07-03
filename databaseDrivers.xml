@@ -52,7 +52,6 @@
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
-      <code-style-scheme-name>Default (1)</code-style-scheme-name>
     </driver>
     <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" version="2.2.1" />
@@ -120,6 +119,11 @@
       <artifact name="PostgreSQL" use="true" />
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="snowflake">
+      <artifact name="Snowflake" use="true" />
+      <option name="auto-sync" value="true" />
     </driver>
   </component>
 </application>
