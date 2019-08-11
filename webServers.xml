@@ -42,7 +42,7 @@
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
       <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizzabuona/public_html/ci" accessType="SFTP">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/fabiogulotta/domains/test.fabiogulotta.it/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -133,6 +133,14 @@
       </webServer>
       <webServer id="ff1420cb-ad47-445c-83aa-3d04ddd10371" name="localhost (1)" url="http://localhost/lastampaveloce">
         <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="95d40d23-45e3-4593-9c2e-f94189dfb0a6" name="test.fabiogulotta" url="http://173.212.239.121">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizzabuona/public_html/ci" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="3722" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
