@@ -11,5 +11,16 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="mdb" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_mdbootstrap_4.8.7_js_mdb.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_mdbootstrap_4.8.7_js_mdb.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
