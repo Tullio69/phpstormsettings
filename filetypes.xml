@@ -22,6 +22,7 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="Versioni Vuew Flow_View" type="SQL" />
       <mapping pattern="Versioni View Flow_View" type="SQL" />
+      <mapping pattern="top_scripts" type="Smarty" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
