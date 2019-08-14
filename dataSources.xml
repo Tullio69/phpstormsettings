@@ -28,11 +28,15 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="citycare" uuid="e2061659-0471-47c0-a751-bd388f46940d">
+    <data-source source="LOCAL" name="citycare" check-outdated="true" uuid="e2061659-0471-47c0-a751-bd388f46940d">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/citycaredb</jdbc-url>
+      <driver-properties>
+        <property name="sslmode" value="require" />
+      </driver-properties>
     </data-source>
   </component>
 </application>
