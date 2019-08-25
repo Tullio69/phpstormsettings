@@ -1,14 +1,7 @@
-<templateSet group="User">
-  <template name="inpctl" value="&lt;div class=&quot;form-group-cst&quot;&gt;&#10;    &lt;label for=&quot;example-input-large&quot;&gt;$name$&lt;/label&gt;&#10;    &lt;input id=&quot;$name$&quot; name=&quot;$name$&quot; class=&quot;form-control input-lg&quot; placeholder=&quot;$name$&quot; style=&quot;background-image: ; background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;&quot; autocomplete=&quot;off&quot; type=&quot;text&quot;&gt;&#10;                                &lt;/div&gt;" description="bootstrap input control" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+<templateSet group="user">
+  <template name="&lt;abbreviation&gt;" value="public function create(){&#10;        $dati=$this-&gt;input-&gt;post();&#10;&#10;    }&#10;&#9;public function read(){&#10;           }&#10;&#9;public function update(){&#10;           }&#10;&#9;public function delete(){}" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
-    </context>
-  </template>
-  <template name="fgrp" value="&lt;div class=&quot;clc-cont&quot;&gt;&#10;                                        &lt;label for=&quot;$nome$&quot;&gt;$nome$&lt;/label&gt;&#10;                                        &lt;div class=&quot;input-group&quot;&gt;&#10;                                            &lt;input class=&quot;form-control input-lg clc&quot; autocomplete=&quot;off&quot; placeholder=&quot;cl&quot; type=&quot;text&quot; name=&quot;$nome$&quot; id=&quot;$nome$&quot;&gt;&#10;                                        &lt;/div&gt;&#10;                                    &lt;/div&gt;" description="form input group" toReformat="false" toShortenFQNames="true">
-    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
+      <option name="PHP Class Member" value="true" />
     </context>
   </template>
 </templateSet>

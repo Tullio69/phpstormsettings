@@ -23,10 +23,12 @@
   </component>
   <component name="PhpCodeFoldingSettings">
     <option name="COLLAPSE_PHP_TAGS" value="true" />
-    <option name="COLLAPSE_HERE_DOCS" value="true" />
     <option name="COLLAPSE_FUNCTION_BODY" value="true" />
     <option name="COLLAPSE_METHOD_BODY" value="true" />
     <option name="COLLAPSE_CLASSES" value="true" />
+  </component>
+  <component name="SqlCodeCompletionSettings" AUTO_ALIAS_TABLE="true">
+    <option name="autoAliasTable" value="true" />
   </component>
   <component name="XmlFoldingSettings">
     <option name="COLLAPSE_XML_TAGS" value="true" />

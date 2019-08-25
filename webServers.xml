@@ -15,7 +15,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="3cd19f3b-b144-4cac-a1d1-707fca79ac65" name="Digithera/Devel/xmlpaLib" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera/lib" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\.ssh\id_dsa" rootFolder="/home/devel/digithera" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -42,7 +42,7 @@
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
       <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizzabuona/public_html/ci" accessType="SFTP">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/fabiogulotta/domains/test.fabiogulotta.it/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -70,7 +70,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d2288070-137c-4aeb-8cf2-61e33167f2ee" name="CONTROLLER-DEV" url="http://dev.digithera.it">
-        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\fabio\OneDrive\.ssh\id_dsa.ppk" rootFolder="/home/devel" accessType="SFTP" keyPair="true">
+        <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa.ppk" rootFolder="/home/devel" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -94,11 +94,11 @@
         </fileTransfer>
       </webServer>
       <webServer id="bbb78ff4-0417-418a-aba1-e93c91c675f4" name="dovebuttoilrifiuto.it" url="http://dovebuttoilrifiuto.it">
-        <fileTransfer host="dovebuttoilrifiuto.it" port="21">
+        <fileTransfer host="dovebuttoilrifiuto.it" port="3722" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
       <webServer id="3251365b-693e-4fb0-ac42-d7ac017651fe" name="micromacro" url="http://mmacro.isieng-web.it">
@@ -119,6 +119,23 @@
       </webServer>
       <webServer id="59df9479-f587-4da2-a0ec-309fa8853007" name="pizza2calc.it" url="http://173.212.239.121">
         <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizza2calc/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="3722" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0027447c-10e0-48cc-a3b8-66f3e26b8b36" name="localhost" url="http://localhost/4200">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="f65b427f-da13-4c30-906b-ad7f8c8d4c79" name="gulp" url="http://localhost:3000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="ff1420cb-ad47-445c-83aa-3d04ddd10371" name="localhost (1)" url="http://localhost/lastampaveloce">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="95d40d23-45e3-4593-9c2e-f94189dfb0a6" name="test.fabiogulotta" url="http://173.212.239.121">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/fabiogulotta/domains/test.fabiogulotta.it/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
