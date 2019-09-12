@@ -7,11 +7,11 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="cd6e8f6a-229d-40ef-8eb1-cf164759825d" name="pizzabuona.it" url="http://pizzabuona.it">
-        <fileTransfer host="pizzabuona.it" port="3721">
+        <fileTransfer host="pizzabuona.it" port="3722" rootFolder="/home/pizzabuona/public_html/ci" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="3721" />
+          <option name="port" value="3722" />
         </fileTransfer>
       </webServer>
       <webServer id="3cd19f3b-b144-4cac-a1d1-707fca79ac65" name="Digithera/Devel/xmlpaLib" url="http://dev.digithera.it">
