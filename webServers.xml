@@ -41,12 +41,12 @@
       <webServer id="4508ba6f-83fb-4d51-a68e-7c7f9d768597" name="wamp" url="http://localhost/progetto_mageco">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
-      <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/fabiogulotta/domains/test.fabiogulotta.it/public_html" accessType="SFTP">
+      <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://ftp.artemarnautica.com">
+        <fileTransfer host="ftp.artemarnautica.com" port="21" rootFolder="/www.artemarnautica.com/new">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="3722" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="696e7027-85e6-4eb9-9c04-911c2d28fc9d" name="localhost-xmlpatopdf" url="http://localhost/xmlpatopdf/">
