@@ -41,7 +41,7 @@
       <webServer id="4508ba6f-83fb-4d51-a68e-7c7f9d768597" name="wamp" url="http://localhost/progetto_mageco">
         <fileTransfer port="0" mountedRoot="C:\wamp64\www\progetto_mageco" accessType="MOUNT" />
       </webServer>
-      <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="Contabo-root" url="http://ftp.artemarnautica.com">
+      <webServer id="5b59f0bd-bcdd-4f9e-8338-92dd41cf5967" name="artemar-aruba" url="http://ftp.artemarnautica.com">
         <fileTransfer host="ftp.artemarnautica.com" port="21" rootFolder="/www.artemarnautica.com/new">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -60,14 +60,6 @@
       </webServer>
       <webServer id="1b32d111-c631-44a4-9fb7-f2b22c693f3a" name="localhost-xmlpatopdfweb" url="http://localhost/xmlpatopdf/">
         <fileTransfer port="0" mountedRoot="C:\Users\Fabio\OneDrive\phpstorm\www.xmlpatopdf.eu" accessType="MOUNT" />
-      </webServer>
-      <webServer id="e3d83dcb-8042-4648-ae8d-179acb3bcab0" name="ecilog@" url="http://ecilog.dynu.net">
-        <fileTransfer host="ecilog.dynu.net" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa" rootFolder="/usr/share/nginx/html/ecilog" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="3722" />
-        </fileTransfer>
       </webServer>
       <webServer id="d2288070-137c-4aeb-8cf2-61e33167f2ee" name="CONTROLLER-DEV" url="http://dev.digithera.it">
         <fileTransfer host="dev.digithera.it" port="3722" privateKey="C:\Users\Fabio\OneDrive\.ssh\id_dsa.ppk" rootFolder="/home/devel" accessType="SFTP" keyPair="true">
@@ -118,7 +110,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="59df9479-f587-4da2-a0ec-309fa8853007" name="pizza2calc.it" url="http://173.212.239.121">
-        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/pizza2calc/public_html" accessType="SFTP">
+        <fileTransfer host="173.212.239.121" port="3722" rootFolder="/home/artemarnautica/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
